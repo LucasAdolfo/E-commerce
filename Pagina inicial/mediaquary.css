@@ -1,0 +1,161 @@
+@charset "UtF-8";
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .search-bar {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carrosel {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .Produto {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .comprar-btn {
+        width: 70%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .cartões img {
+        width: 70px;
+    }
+}
+/* Responsivo para Smartphones (largura máxima de 768px) */
+@media (min-width: 480px) and (max-width: 768px){
+    .header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        display: none; /* Alternativa: implementar menu hamburguer */
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carrosel {
+        width: 100%;
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .Produto {
+        width: 100%;
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .preço {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .comprar-btn {
+        width: 90%;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 0.8rem;
+    }
+
+    .cartões img {
+        width: 60px;
+    }
+}
+
+/* Responsivo para Smartphones Pequenos (largura máxima de 480px) */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .search-bar {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .carrosel {
+        padding: 10px;
+    }
+
+    .Produto {
+        padding: 10px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .preço {
+        font-size: 14px;
+    }
+
+    .comprar-btn {
+        font-size: 0.8rem;
+        padding: 8px;
+        margin: 10px auto;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+    .cartões img {
+        width: 50px;
+    }
+}
